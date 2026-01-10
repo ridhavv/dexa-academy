@@ -1,0 +1,9 @@
+
+{
+  "name": "Dexa Academy - Global Vedic Maths & Communication",
+  "description": "A premium online education platform teaching Vedic Maths, communication skills, and advanced mathematics to international and NRI students aged 6-15.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
