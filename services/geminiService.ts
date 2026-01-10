@@ -1,9 +1,17 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const apiKey = process.env.GEMINI_API_KEY || process.env.API_KEY || '';
+const ai = apiKey ? new GoogleGenAI({ apiKey }) : null;
 
 export const getCourseRecommendation = async (childAge: string, interests: string, challenges: string) => {
+  if (!ai) {
+    return { 
+      recommendedCourse: "Vedic Maths Junior", 
+      reasoning: "Please configure your GEMINI_API_KEY to get personalized recommendations.",
+      suggestedNextSteps: "Contact us for more information about our courses."
+    };
+  }
   try {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
@@ -35,6 +43,9 @@ export const getCourseRecommendation = async (childAge: string, interests: strin
 };
 
 export const chatWithDexaBot = async (history: {role: string, parts: {text: string}[]}[], message: string) => {
+  if (!ai) {
+    return "I'm having a little trouble connecting right now. Please feel free to fill out our enrollment form and a human counselor will reach out shortly! You can also contact us via WhatsApp at +91 79769 59913.";
+  }
   try {
     const chat = ai.chats.create({
       model: 'gemini-3-flash-preview',
