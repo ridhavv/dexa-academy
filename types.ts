@@ -30,8 +30,8 @@ export interface LeadFormData {
 }
 
 export enum Subject {
-  VEDIC_MATHS = 'Vedic Maths',
-  COMMUNICATION = 'Communication Skills',
-  REGULAR_MATHS = 'Regular School Maths',
-  APTITUDE = 'Aptitude & Logic'
+  MONEY_SKILLS = 'Basic Money Skills',
+  AI_PYTHON = 'AI and Python Course',
+  COMMUNICATION = 'Communication Excellence',
+  LOGICAL_APTITUDE = 'Logical Aptitude'
 }

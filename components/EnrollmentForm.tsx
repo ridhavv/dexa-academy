@@ -9,7 +9,7 @@ export const EnrollmentForm: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const [formData, setFormData] = useState<Partial<LeadFormData>>({
-    interest: Subject.VEDIC_MATHS
+    interest: Subject.MONEY_SKILLS
   });
 
   const sendToSalesforce = async (data: Partial<LeadFormData>) => {
@@ -153,7 +153,7 @@ export const EnrollmentForm: React.FC = () => {
         <select 
           required
           className="w-full px-4 py-3 rounded-xl bg-slate-50 border border-slate-200 focus:border-amber-500 outline-none transition-all"
-          value={formData.interest || Subject.VEDIC_MATHS}
+          value={formData.interest || Subject.MONEY_SKILLS}
           onChange={(e) => setFormData({...formData, interest: e.target.value as Subject})}
         >
           {Object.values(Subject).map((s) => (

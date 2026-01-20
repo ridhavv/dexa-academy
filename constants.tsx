@@ -6,9 +6,9 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
     name: "Priya Sharma",
-    role: "Parent of 8yr old",
+    role: "Parent of 10yr old",
     location: "London, UK",
-    content: "Dexa Academy transformed how Arjun views numbers. He used to be terrified of long calculations, but now he does them mentally using Vedic tricks. Truly a game changer for NRIs!",
+    content: "Dexa Academy's Basic Money Skills course has been incredible! Arjun now understands budgeting and saving. He's even started his own savings plan. Truly empowering for young minds!",
     rating: 5,
     image: "https://picsum.photos/id/64/100/100"
   },
@@ -24,9 +24,9 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 3,
     name: "Anjali Gupta",
-    role: "Parent of 10yr old",
+    role: "Parent of 13yr old",
     location: "New Jersey, USA",
-    content: "Living abroad, we wanted our son to stay connected to his roots while gaining skills. The Vedic Maths classes are structured perfectly for international time zones.",
+    content: "The AI and Python course is fantastic! My son has built his first chatbot and is so excited about coding. The classes are perfectly structured for international time zones.",
     rating: 5,
     image: "https://picsum.photos/id/65/100/100"
   }
@@ -34,35 +34,35 @@ export const TESTIMONIALS: Testimonial[] = [
 
 export const COURSES: Course[] = [
   {
-    id: 'vm-jr',
-    title: 'Vedic Maths Junior',
-    ageGroup: '6-9 Years',
-    description: 'Master the basics of rapid mental calculation using ancient Indian techniques.',
-    icon: '🧮',
-    features: ['Base Method Multiplications', 'Digit Sum Checks', 'Magic Addition']
+    id: 'money-skills',
+    title: 'Basic Money Skills',
+    ageGroup: '8-15 Years',
+    description: 'Learn essential financial literacy including budgeting, saving, investing basics, and understanding money management.',
+    icon: '💰',
+    features: ['Budgeting & Saving', 'Understanding Investments', 'Financial Planning Basics']
   },
   {
-    id: 'vm-sr',
-    title: 'Vedic Maths Senior',
+    id: 'ai-python',
+    title: 'AI and Python Course',
     ageGroup: '10-15 Years',
-    description: 'Advanced algebra, square roots, and complex arithmetic at lightning speed.',
-    icon: '⚡',
-    features: ['Algebraic Equations', 'Cubes & Square Roots', 'Mental Calculus Foundations']
+    description: 'Master Python programming and AI fundamentals. Build real-world projects and understand machine learning concepts.',
+    icon: '🤖',
+    features: ['Python Programming', 'AI Fundamentals', 'Machine Learning Basics', 'Project Building']
   },
   {
-    id: 'comm-ex',
+    id: 'communication',
     title: 'Communication Excellence',
     ageGroup: '8-15 Years',
-    description: 'Build confidence, public speaking skills, and effective storytelling.',
+    description: 'Build confidence, public speaking skills, and effective storytelling. Master verbal and non-verbal communication.',
     icon: '🗣️',
-    features: ['Body Language Mastery', 'Vocabulary Building', 'Public Speaking Projects']
+    features: ['Body Language Mastery', 'Vocabulary Building', 'Public Speaking Projects', 'Effective Storytelling']
   },
   {
-    id: 'math-logic',
+    id: 'logical-aptitude',
     title: 'Logical Aptitude',
     ageGroup: '10-15 Years',
-    description: 'Prepare for Olympiads and competitive exams with logical reasoning.',
+    description: 'Prepare for Olympiads and competitive exams with logical reasoning. Develop critical thinking and problem-solving skills.',
     icon: '🧩',
-    features: ['Pattern Recognition', 'Problem Solving', 'Critical Thinking']
+    features: ['Pattern Recognition', 'Problem Solving', 'Critical Thinking', 'Competitive Exam Prep']
   }
 ];

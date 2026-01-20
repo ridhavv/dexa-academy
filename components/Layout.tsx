@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
               <span className="text-xl font-bold text-white tracking-tight">DEXA ACADEMY</span>
             </div>
             <p className="text-slate-400 leading-relaxed text-sm mb-6">
-              Empowering global young minds with the ancient wisdom of Vedic Maths and modern communication excellence.
+              Empowering global young minds with essential life skills: Financial Literacy, AI & Python, Communication, and Logical Aptitude.
             </p>
             <div className="flex space-x-3">
               <a href="https://www.facebook.com/dexaacad" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-amber-500 transition-colors p-2 rounded-full" aria-label="Facebook">

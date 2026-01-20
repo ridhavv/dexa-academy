@@ -7,7 +7,7 @@ const ai = apiKey ? new GoogleGenAI({ apiKey }) : null;
 export const getCourseRecommendation = async (childAge: string, interests: string, challenges: string) => {
   if (!ai) {
     return { 
-      recommendedCourse: "Vedic Maths Junior", 
+      recommendedCourse: "Basic Money Skills", 
       reasoning: "Please configure your GEMINI_API_KEY to get personalized recommendations.",
       suggestedNextSteps: "Contact us for more information about our courses."
     };
@@ -18,7 +18,7 @@ export const getCourseRecommendation = async (childAge: string, interests: strin
       contents: `Suggest a course from Dexa Academy for a child who is ${childAge} years old. 
       Their interests are: ${interests}. 
       They struggle with: ${challenges}.
-      Available Courses: Vedic Maths (Mental speed), Communication Skills (Confidence), School Maths (Foundations), Logical Aptitude.
+      Available Courses: Basic Money Skills (Financial Literacy), AI and Python Course (Technology), Communication Excellence (Confidence & Speaking), Logical Aptitude (Problem Solving).
       Provide a personalized message for the parent explaining why this is a good fit.`,
       config: {
         systemInstruction: "You are an expert educational counselor for Dexa Academy. You help parents choose the right online skill course for their children aged 6-15. Keep your tone encouraging, professional, and culturally sensitive (especially to NRI/International families).",
@@ -51,8 +51,8 @@ export const chatWithDexaBot = async (history: {role: string, parts: {text: stri
       model: 'gemini-3-flash-preview',
       config: {
         systemInstruction: `You are Dexa, the friendly mascot and assistant for Dexa Academy. 
-        Dexa Academy teaches Vedic Maths and Communication to kids (6-15) globally (USA, UK, Singapore, Middle East). 
-        Key USP: 10x faster calculations, building confidence, and connection to Indian heritage.
+        Dexa Academy teaches Basic Money Skills, AI & Python, Communication Excellence, and Logical Aptitude to kids (8-15) globally (USA, UK, Singapore, Middle East). 
+        Key USP: Future-ready skills including financial literacy, coding, communication, and critical thinking.
         Answer parent queries concisely. Always encourage them to fill out the enrollment form for a free trial.`,
       }
     });

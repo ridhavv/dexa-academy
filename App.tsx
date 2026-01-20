@@ -18,7 +18,7 @@ const Home = () => (
             Unlock Your Child's <span className="text-amber-500 underline decoration-amber-200">Genius</span>
           </h1>
           <p className="text-xl text-slate-600 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            World-class Vedic Maths and Communication courses designed for kids aged 6-15. Empowering NRI and international students with skills that last a lifetime.
+            World-class courses in Money Skills, AI & Python, Communication, and Logical Aptitude designed for kids aged 8-15. Empowering NRI and international students with skills that last a lifetime.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center lg:justify-start">
             <Link to="/enroll" className="px-8 py-4 bg-amber-500 text-white rounded-2xl font-bold text-lg shadow-2xl shadow-amber-200 transform transition-transform hover:-translate-y-1">
@@ -40,7 +40,7 @@ const Home = () => (
                 <span className="text-2xl">🏆</span>
                 <div>
                   <p className="text-xs font-bold text-slate-500">Top Rated</p>
-                  <p className="text-sm font-bold text-slate-900">#1 Mental Math Platform</p>
+                  <p className="text-sm font-bold text-slate-900">#1 Skills Platform</p>
                 </div>
               </div>
             </div>
@@ -57,13 +57,13 @@ const Home = () => (
       <div className="container mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-12 text-center">
         <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
           <div className="w-16 h-16 bg-amber-50 text-amber-500 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6">🧠</div>
-          <h3 className="text-xl font-bold mb-3 text-slate-900">Mental Speed</h3>
-          <p className="text-slate-600 text-sm">Calculate 10x faster than traditional methods using Vedic secrets.</p>
+          <h3 className="text-xl font-bold mb-3 text-slate-900">Financial Literacy</h3>
+          <p className="text-slate-600 text-sm">Master essential money management skills from budgeting to investing basics.</p>
         </div>
         <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
           <div className="w-16 h-16 bg-blue-50 text-blue-500 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6">💎</div>
           <h3 className="text-xl font-bold mb-3 text-slate-900">Confidence First</h3>
-          <p className="text-slate-600 text-sm">Overcome maths anxiety and stage fear with professional guidance.</p>
+          <p className="text-slate-600 text-sm">Build confidence in communication, coding, and problem-solving with professional guidance.</p>
         </div>
         <div className="p-8 bg-white rounded-3xl shadow-sm border border-slate-100">
           <div className="w-16 h-16 bg-indigo-50 text-indigo-500 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6">🌍</div>
@@ -302,10 +302,10 @@ const About = () => (
           <div className="inline-block px-4 py-2 bg-amber-100 text-amber-700 rounded-full text-sm font-bold">OUR MISSION</div>
           <h2 className="text-4xl font-bold text-slate-900">Empowering Young Minds Globally</h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            At Dexa Academy, we believe that every child has unlimited potential waiting to be unleashed. Our mission is to revolutionize how children learn by combining the timeless wisdom of Vedic Mathematics with cutting-edge teaching methodologies and powerful communication training.
+            At Dexa Academy, we believe that every child has unlimited potential waiting to be unleashed. Our mission is to revolutionize how children learn by combining essential life skills like financial literacy, cutting-edge technology training, and powerful communication skills.
           </p>
           <p className="text-lg text-slate-600 leading-relaxed">
-            We don't just teach maths – we transform how young minds approach problem-solving, boost confidence, and prepare them to excel globally.
+            We don't just teach subjects – we transform how young minds approach problem-solving, build confidence, and prepare them to excel globally in the modern world.
           </p>
           <div className="flex flex-wrap gap-4 pt-4">
             <div className="px-6 py-3 bg-slate-50 rounded-xl border border-slate-200">
@@ -327,44 +327,44 @@ const About = () => (
         </div>
       </div>
 
-      {/* Why Vedic Maths */}
+      {/* Our Courses */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20 flex-row-reverse">
         <div className="rounded-3xl overflow-hidden shadow-2xl">
-          <img src="https://picsum.photos/id/103/800/600" alt="Vedic Maths" className="w-full object-cover" />
+          <img src="https://picsum.photos/id/103/800/600" alt="Our Courses" className="w-full object-cover" />
         </div>
         <div className="space-y-6">
-          <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-bold">VEDIC MATHEMATICS</div>
-          <h2 className="text-4xl font-bold text-slate-900">Ancient Wisdom, Modern Results</h2>
+          <div className="inline-block px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-bold">OUR COURSES</div>
+          <h2 className="text-4xl font-bold text-slate-900">Future-Ready Skills for Modern Learners</h2>
           <p className="text-lg text-slate-600 leading-relaxed">
-            Vedic Mathematics is a system of calculation techniques discovered in ancient Indian scriptures. It's not just about speed – it's about developing a profound understanding of how numbers work.
+            Our comprehensive curriculum prepares students for success in the digital age. From financial literacy to AI programming, we equip young minds with skills that matter today and tomorrow.
           </p>
           <ul className="space-y-4">
             <li className="flex items-start space-x-4">
               <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 flex-shrink-0 font-bold text-sm">1</span>
               <div>
-                <h4 className="font-bold text-slate-900">10x Faster Calculations</h4>
-                <p className="text-slate-600">Solve complex problems in seconds using elegant shortcuts.</p>
+                <h4 className="font-bold text-slate-900">Financial Literacy</h4>
+                <p className="text-slate-600">Master money management, budgeting, and investing basics from an early age.</p>
               </div>
             </li>
             <li className="flex items-start space-x-4">
               <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 flex-shrink-0 font-bold text-sm">2</span>
               <div>
-                <h4 className="font-bold text-slate-900">Boosts Confidence</h4>
-                <p className="text-slate-600">Master maths anxiety and become the math expert in your class.</p>
+                <h4 className="font-bold text-slate-900">AI & Technology</h4>
+                <p className="text-slate-600">Learn Python programming and AI fundamentals to build real-world projects.</p>
               </div>
             </li>
             <li className="flex items-start space-x-4">
               <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 flex-shrink-0 font-bold text-sm">3</span>
               <div>
-                <h4 className="font-bold text-slate-900">Competitive Edge</h4>
-                <p className="text-slate-600">Excel in SAT, GMAT, JEE, and other competitive exams.</p>
+                <h4 className="font-bold text-slate-900">Communication Excellence</h4>
+                <p className="text-slate-600">Build confidence, public speaking skills, and effective communication.</p>
               </div>
             </li>
             <li className="flex items-start space-x-4">
               <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 flex-shrink-0 font-bold text-sm">4</span>
               <div>
-                <h4 className="font-bold text-slate-900">Cultural Connection</h4>
-                <p className="text-slate-600">Connect with Indian heritage while thriving globally.</p>
+                <h4 className="font-bold text-slate-900">Logical Aptitude</h4>
+                <p className="text-slate-600">Develop critical thinking and problem-solving skills for competitive exams.</p>
               </div>
             </li>
           </ul>

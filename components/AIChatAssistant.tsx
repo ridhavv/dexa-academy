@@ -5,7 +5,7 @@ import { chatWithDexaBot } from '../services/geminiService';
 export const AIChatAssistant: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [messages, setMessages] = useState<{role: 'user' | 'bot', text: string}[]>([
-    {role: 'bot', text: "Namaste! I'm Dexa. How can I help you today? Are you looking for a Vedic Maths or Communication course for your child?"}
+    {role: 'bot', text: "Namaste! I'm Dexa. How can I help you today? Are you interested in Basic Money Skills, AI & Python, Communication, or Logical Aptitude courses for your child?"}
   ]);
   const [input, setInput] = useState('');
   const [isLoading, setIsLoading] = useState(false);
