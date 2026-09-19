@@ -33,5 +33,5 @@ export enum Subject {
   MONEY_SKILLS = 'Basic Money Skills',
   AI_PYTHON = 'AI and Python Course',
   COMMUNICATION = 'Communication Excellence',
-  LOGICAL_APTITUDE = 'Logical Aptitude'
+  GRAPHIC_DESIGN = 'Graphic Design'
 }
