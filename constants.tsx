@@ -39,7 +39,7 @@ export const COURSES: Course[] = [
     ageGroup: '8-15 Years',
     description: 'Learn essential financial literacy including budgeting, saving, investing basics, and understanding money management.',
     icon: '💰',
-    features: ['Budgeting & Saving', 'Understanding Investments', 'Financial Planning Basics']
+    features: ['Budgeting & Saving', 'Understanding Investments', 'Financial Planning Basics', 'Real-life Money Management']
   },
   {
     id: 'ai-python',
@@ -63,6 +63,6 @@ export const COURSES: Course[] = [
   ageGroup: '8-16 Years',
   description: 'Learn the basics of graphic design and unleash your creativity. Kids will learn to use Canva to create logos, posters, social media graphics, presentations, and more.',
   icon: '🎨',
-  features: ['Canva Basics', 'Logo Design', 'Poster & Flyer Design', 'Creative Projects']
+  features: ['Logo Design', 'Poster & Flyer Design', 'Creative Projects']
   }
 ];
