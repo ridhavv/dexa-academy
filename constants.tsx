@@ -58,11 +58,11 @@ export const COURSES: Course[] = [
     features: ['Body Language Mastery', 'Vocabulary Building', 'Public Speaking Projects', 'Effective Storytelling']
   },
   {
-    id: 'logical-aptitude',
-    title: 'Logical Aptitude',
-    ageGroup: '10-15 Years',
-    description: 'Prepare for Olympiads and competitive exams with logical reasoning. Develop critical thinking and problem-solving skills.',
-    icon: '🧩',
-    features: ['Pattern Recognition', 'Problem Solving', 'Critical Thinking', 'Competitive Exam Prep']
+  id: 'graphic-design',
+  title: 'Graphic Design',
+  ageGroup: '8-16 Years',
+  description: 'Learn the basics of graphic design and unleash your creativity. Kids will learn to use Canva to create logos, posters, social media graphics, presentations, and more.',
+  icon: '🎨',
+  features: ['Canva Basics', 'Logo Design', 'Poster & Flyer Design', 'Creative Projects']
   }
 ];

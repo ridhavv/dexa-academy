@@ -18,7 +18,7 @@ const Home = () => (
             Unlock Your Child's <span className="text-amber-500 underline decoration-amber-200">Genius</span>
           </h1>
           <p className="text-xl text-slate-600 mb-10 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            World-class courses in Money Skills, AI & Python, Communication, and Logical Aptitude designed for kids aged 8-15. Empowering NRI and international students with skills that last a lifetime.
+            World-class courses in Money Skills, AI & Python, Communication, and Graphic Design designed for kids aged 8-15. Empowering NRI and international students with skills that last a lifetime.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6 justify-center lg:justify-start">
             <Link to="/enroll" className="px-8 py-4 bg-amber-500 text-white rounded-2xl font-bold text-lg shadow-2xl shadow-amber-200 transform transition-transform hover:-translate-y-1">
@@ -363,8 +363,8 @@ const About = () => (
             <li className="flex items-start space-x-4">
               <span className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 flex-shrink-0 font-bold text-sm">4</span>
               <div>
-                <h4 className="font-bold text-slate-900">Logical Aptitude</h4>
-                <p className="text-slate-600">Develop critical thinking and problem-solving skills for competitive exams.</p>
+                <h4 className="font-bold text-slate-900">Graphic Design</h4>
+                <p className="text-slate-600">Learn the basics of graphic design and unleash your creativity with Canva.</p>
               </div>
             </li>
           </ul>
